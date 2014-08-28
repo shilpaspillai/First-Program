@@ -1,0 +1,184 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    width: 940px;
+    background-color:#686546;
+   }
+.container{
+    width:1215px;
+    margin:0 auto;
+    display:block;
+}
+    .header{
+     margin-bottom:3px;
+     width:530px;
+     margin-top: 15px;
+     padding :5px;
+     border-bottom:2px solid #000;
+    }
+.content{
+    padding: 10px;
+     background-color:#0E290E;
+    border-radius: 14px;
+    margin-left: 100px;
+    margin-top: 2px;
+    border-bottom-color: #000;
+    display:block;
+     height:550px;
+}
+  .labelcontrol
+  {
+       text-align:center;
+       margin-top:5px;
+       margin-left: 15px;
+    }
+    .label{
+        margin-top:58px;
+    }
+    .contents_control{
+        margin-top: 145px;
+        margin-left: 345px;
+        background-color:#EEF1F0;
+        width:250px;
+        border-radius:14px;
+        padding: 10px;
+          }
+    .heading{
+              text-decoration-style: solid;
+              text-decoration-color: #000;
+              font-size: 30px;
+              text-align: center;
+              padding-top: 50px;
+              margin-top: -55px;
+          } 
+          .admin_heading{
+              margin-top:10px;
+              padding: 10px;
+              text-align: center;
+              width:430px;
+              font-size: 45px;
+              color: #000;
+          }
+          .admin-container
+          {
+              display: block;
+              margin: 0 auto;
+              padding: 10px;
+              background-color:#629E80;
+              border-radius: 14px;
+              margin-left:295px;
+              height:400px;
+             
+           }
+          a:hover
+          {
+              color:#A70000;
+              text-decoration: none;
+          }
+          .admin_ref
+            {
+              display: block;
+              width: 250px;
+              border-radius:14px;
+              background-color:#32614A;
+              padding: 20px;
+              margin-top:99px;
+              margin-left:100px;
+            }
+          .header-company
+          {
+              display:block;
+              width: 571px;
+              height: 100px;
+              text-align: center;
+              font-size: 20px;
+              border-radius: 14px;
+              background-color:#32614A; 
+          }
+         
+          a{
+              display: block;
+              text-decoration: none;
+          }
+          .button{
+              float: left;
+              display: block;
+          }
+          .contents_user{
+              width: 350px;
+              margin-top: 50px;
+              padding: 10px;
+              text-decoration-color: #005702;
+              font-family:sans-serif;
+              font-size: 25px;
+              background-color:#99BC99;
+              border-radius:14px;
+              height:300px;
+              margin-left: 400px;
+          }
+          .user_out
+            {
+              width:350x;
+              margin-left: 270px;
+              margin-top:225px;
+              float:left;
+              font-size: 28px;
+              background-color:#A1C2C9; 
+              border-radius:2px;
+              text-decoration:none;
+            }
+           .ac
+            {
+               display: block;
+               padding: 10px;
+               margin-left: 68px;
+            }
+          .user_container
+           {
+           width: 1215 px;
+           margin: 0 auto;
+           display: block;
+            margin-top: 157px;
+            margin-left: 100px;
+          }
